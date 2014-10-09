@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="cate">
+        <item>@string/all</item>
+        <item>@string/film</item>
+        <item>@string/muzik</item>
+        <item>@string/sports</item>
+        <item>@string/science</item>
+        <item>@string/animals</item>
+        <item>@string/events</item>
+        <item>@string/auto</item>
+        <item>@string/game</item>
+        <item>@string/blog</item>
+        <item>@string/news</item>
+        <item>@string/entertainment</item>
+        <item>@string/comedy</item>
+        <item>@string/edu</item>
+        <item>@string/style</item>
+    </string-array>
+
+</resources>

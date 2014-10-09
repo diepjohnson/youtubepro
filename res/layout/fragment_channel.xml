@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rllogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:lines="2"
+            android:text="@string/tv_login" />
+
+        <Button
+            android:id="@+id/btn_specified_name_channel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_login"
+            android:text="@string/btn_specified_name" />
+
+        <Button
+            android:id="@+id/login_dev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_specified_name_channel"
+            android:text="@string/login_youtube_dev" />
+
+        <Button
+            android:id="@+id/login_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_dev"
+            android:text="@string/login_youtube_web" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rllst_channel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_new_videos_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="30dp"
+            android:text="@string/new_subscribe" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/tv_new_videos_sub"
+            android:background="#bbbab9" />
+
+        <ListView
+            android:id="@+id/list_channel_subcribe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view" />
+    </RelativeLayout>
+
+</RelativeLayout>

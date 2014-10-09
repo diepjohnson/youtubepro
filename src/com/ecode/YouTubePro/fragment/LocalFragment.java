@@ -13,7 +13,7 @@ public class LocalFragment extends BaseFragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater,
 			@Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-		View view= inflater.inflate(R.layout.activity_main, container, false);
+		View view= inflater.inflate(R.layout.fragment_local, container, false);
 		return view;
 	}
 

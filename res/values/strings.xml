@@ -2,7 +2,35 @@
 <resources>
 
     <string name="app_name">YouTube Pro</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <!-- Main -->
+    <string name="fragment_title_local">Local list</string>
+    <string name="fragment_title_channel">Channel</string>
+    <string name="fragment_title_youtube">Youtube</string>
+    <string name="fragment_title_account">My account</string>
+    <string name="fragment_title_category">Category</string>
+    <string name="fragment_title_bookmark">Bookmark</string>
+    <!-- Fragment list channel -->
+    <string name="new_subscribe">New subscription videos</string>
+    <string name="tv_login">To get playlist created by your YouTube account, you can</string>
+    <string name="btn_specified_name">Specify your channel name</string>
+    <string name="login_youtube_dev">Login YouTube(device)</string>
+    <string name="login_youtube_web">Login YouTube(web)</string>
+    <!-- Fragment category -->
+    <string name="all">All</string>
+    <string name="film">Film &amp;  Animation</string>
+    <string name="muzik">Music</string>
+    <string name="sports">Sports</string>
+    <string name="science">Science &amp;  Technology</string>
+    <string name="animals">Pets &amp;  Animals</string>
+    <string name="events">Travel &amp;  Events</string>
+    <string name="auto">Auto &amp;  Vehicles</string>
+    <string name="game">Gaming</string>
+    <string name="blog">People &amp;  Blogs</string>
+    <string name="news">News &amp;  Politics</string>
+    <string name="entertainment">Entertainent</string>
+    <string name="comedy">Comedy</string>
+    <string name="edu">Education</string>
+    <string name="style">Howto &amp;  Style</string>
 
 </resources>
