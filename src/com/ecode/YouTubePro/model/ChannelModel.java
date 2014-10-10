@@ -2,6 +2,13 @@ package com.ecode.YouTubePro.model;
 
 public class ChannelModel {
 	String urlThumb;
+	int count;
+	public int getCount() {
+		return count;
+	}
+	public void setCount(int count) {
+		this.count = count;
+	}
 	public String getUrlThumb() {
 		return urlThumb;
 	}
@@ -20,13 +27,6 @@ public class ChannelModel {
 	public void setId(String id) {
 		this.id = id;
 	}
-	public String getDescripton() {
-		return descripton;
-	}
-	public void setDescripton(String descripton) {
-		this.descripton = descripton;
-	}
 	String title;
 	String id;
-	String descripton;
 }

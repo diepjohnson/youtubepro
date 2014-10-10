@@ -447,6 +447,56 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int default_underline_indicator_fades=0x7f070004;
     }
     public static final class color {
+        /** 
+     Generic background color for View and titles
+	# 一般的title使用的蓝色背景色
+
+
+    
+         */
+        public static final int background_color_main=0x7f06001b;
+        public static final int background_color_support=0x7f06001c;
+        public static final int background_color_support2=0x7f06001e;
+        public static final int background_color_support3=0x7f06001d;
+        public static final int background_img_color=0x7f060082;
+        public static final int bg_chat_msg=0x7f06001a;
+        public static final int bg_color_text_hind=0x7f060089;
+        public static final int bg_color_view=0x7f06008c;
+        public static final int bg_crop_image=0x7f060085;
+        /**  promotion detail 
+         */
+        public static final int bg_detail_selected=0x7f060091;
+        public static final int bg_list_chat=0x7f060088;
+        public static final int bg_notify_layout=0x7f060086;
+        /**  search 
+         */
+        public static final int bg_search=0x7f06008e;
+        /**  main colors 
+         */
+        public static final int black=0x7f060038;
+        public static final int blue_green=0x7f060043;
+        public static final int blue_light=0x7f06005e;
+        public static final int body_background_featured=0x7f060018;
+        /** 
+     Body background color 
+	# layout内容的背景色
+
+
+    
+         */
+        public static final int body_background_normal=0x7f060017;
+        public static final int chat_bg=0x7f06007c;
+        public static final int color_active=0x7f060090;
+        public static final int color_rating=0x7f06008f;
+        public static final int comment_bg_color=0x7f06007e;
+        public static final int comment_btn_color=0x7f06007f;
+        public static final int dacam=0x7f06003e;
+        public static final int dark_green=0x7f060045;
+        public static final int dark_grey=0x7f06003a;
+        public static final int dark_red=0x7f06004b;
+        public static final int deep_blue=0x7f060041;
+        public static final int deep_green=0x7f060044;
+        public static final int deeper_red=0x7f06004a;
         public static final int default_circle_indicator_fill_color=0x7f060008;
         public static final int default_circle_indicator_page_color=0x7f060009;
         public static final int default_circle_indicator_stroke_color=0x7f06000a;
@@ -456,6 +506,187 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int default_title_indicator_selected_color=0x7f06000e;
         public static final int default_title_indicator_text_color=0x7f06000f;
         public static final int default_underline_indicator_selected_color=0x7f060010;
+        public static final int diliver=0x7f06007a;
+        public static final int fb_caption_light_grey=0x7f060052;
+        public static final int fb_comments_blue=0x7f060053;
+        public static final int fb_like_bg=0x7f060054;
+        public static final int fb_name_light_blue=0x7f060051;
+        public static final int fb_title_black=0x7f060050;
+        /**  facebook 
+         */
+        public static final int fb_title_blue=0x7f06004f;
+        public static final int feeds_title_bg=0x7f06006e;
+        public static final int green=0x7f06004c;
+        public static final int grid_item_text_disable=0x7f060036;
+        public static final int grid_item_text_focusd=0x7f060035;
+        /** 
+     grid view item text selector colors 
+	# Grid Item的文字颜色
+
+
+    
+         */
+        public static final int grid_item_text_normal=0x7f060033;
+        public static final int grid_item_text_pressed=0x7f060034;
+        public static final int header_tab_color=0x7f060083;
+        public static final int hint_color=0x7f06007d;
+        public static final int ia_bg_blue=0x7f06006b;
+        public static final int ia_blue=0x7f060061;
+        public static final int ia_deep_blue=0x7f060064;
+        public static final int ia_deep_green=0x7f060068;
+        public static final int ia_green=0x7f060067;
+        /**  CLUB 
+         */
+        public static final int ia_label_bg_color=0x7f06005f;
+        public static final int ia_label_blue=0x7f060069;
+        public static final int ia_label_deep_grey=0x7f06006d;
+        public static final int ia_label_grey=0x7f06006c;
+        public static final int ia_label_orange=0x7f06006a;
+        public static final int ia_light_blue=0x7f060060;
+        public static final int ia_orange=0x7f060062;
+        public static final int ia_red=0x7f060065;
+        public static final int ia_tranparent=0x7f060063;
+        public static final int ia_yallow=0x7f060066;
+        /** 
+     Label foreground color and background colors
+	# Label的前景色和背景色定义
+
+
+    
+         */
+        public static final int label_main_bg_color=0x7f06001f;
+        /**  Blue Color 
+         */
+        public static final int label_main_fg_color=0x7f060020;
+        /**  White Color 
+         */
+        public static final int label_support_bg_color=0x7f060021;
+        /**  Light Grey Color 
+         */
+        public static final int label_support_fg_color=0x7f060022;
+        public static final int light_blue=0x7f060042;
+        public static final int light_green=0x7f060046;
+        public static final int light_grey=0x7f06003b;
+        public static final int light_grey_plus=0x7f06005c;
+        public static final int light_red=0x7f060048;
+        public static final int light_yalow=0x7f060047;
+        public static final int linearlayout_backgroud_oppose=0x7f06005b;
+        /**  Dark grey 
+
+     normal TextView color 
+	# 普通的TextView Color
+
+
+    
+         */
+        public static final int normal_text_view_color_dark=0x7f060023;
+        public static final int normal_text_view_color_light=0x7f060024;
+        public static final int orange=0x7f060049;
+        public static final int order_header_border=0x7f060081;
+        public static final int pink=0x7f06003f;
+        public static final int price_color=0x7f060080;
+        public static final int purpal=0x7f060040;
+        /**  buddy tab color 
+         */
+        public static final int search_buddy_bg=0x7f060084;
+        public static final int sencondary_black=0x7f060039;
+        /**  Buddy Activity 
+         */
+        public static final int separator_bg_color=0x7f060037;
+        public static final int short_label_title_color=0x7f060025;
+        public static final int sns_comment_grey=0x7f060056;
+        public static final int sns_floating_bar_active=0x7f060059;
+        public static final int sns_floating_bar_normal=0x7f060058;
+        public static final int sns_message_grey=0x7f060057;
+        /**  sns 
+         */
+        public static final int sns_name_black=0x7f060055;
+        public static final int sns_page_font_color=0x7f06005d;
+        public static final int suport_header_bg=0x7f060079;
+        /** 
+     tab item text selector's colors 
+	# Tab Item中文字的颜色
+
+
+    
+         */
+        public static final int tab_bg_normal=0x7f060030;
+        public static final int tab_bg_selected_false=0x7f060032;
+        public static final int tab_bg_selected_true=0x7f060031;
+        public static final int text_grey=0x7f060075;
+        public static final int text_grey_bg=0x7f060078;
+        public static final int text_grey_gridview=0x7f060076;
+        public static final int text_grey_line=0x7f060077;
+        public static final int text_label_disabled=0x7f060029;
+        public static final int text_label_disabled_reverse=0x7f06002e;
+        public static final int text_label_focused=0x7f060028;
+        public static final int text_label_focused_reverse=0x7f06002d;
+        /** 
+     normal text selector color used in white background 
+	# 在白色背景下的text selector的颜色
+
+
+    
+         */
+        public static final int text_label_normal=0x7f060026;
+        /** 
+     normal text selector reverse colors used in dark background 
+	# 在深色背景下text selector所用到的颜色
+
+
+    
+         */
+        public static final int text_label_normal_reverse=0x7f06002b;
+        public static final int text_label_normal_secondary_reverse=0x7f06002f;
+        public static final int text_label_pressed=0x7f060027;
+        public static final int text_label_pressed_reverse=0x7f06002c;
+        public static final int text_label_seondary_normal=0x7f06002a;
+        public static final int theme_blue_dark1=0x7f060072;
+        public static final int theme_blue_dark2=0x7f060073;
+        public static final int theme_blue_light1=0x7f060070;
+        public static final int theme_blue_light2=0x7f060071;
+        /**  standard colors 
+         */
+        public static final int theme_blue_main=0x7f06006f;
+        public static final int theme_grey=0x7f060074;
+        public static final int title_background_off_color_end=0x7f060014;
+        public static final int title_background_off_color_start=0x7f060013;
+        public static final int title_background_on_color_end=0x7f060012;
+        /**  Global Colors 
+
+     Backgrounds Global themes
+	# 全局的背景颜色配色
+
+
+    
+
+     Title background color gradient 
+	# Tab和其他的Title的背景颜色，渐变颜色和起始颜色
+
+
+    
+         */
+        public static final int title_background_on_color_start=0x7f060011;
+        public static final int title_background_pressed_end=0x7f060016;
+        public static final int title_background_pressed_start=0x7f060015;
+        public static final int title_orange=0x7f06004e;
+        public static final int transparent_dark=0x7f06008d;
+        /**  ProductActivity 
+         */
+        public static final int tv_blue=0x7f060092;
+        /**  a kind of blue 
+         */
+        public static final int tv_color=0x7f060019;
+        public static final int tv_menubar_color=0x7f06008b;
+        /**  New Menubar 
+         */
+        public static final int tv_menubar_color_selected=0x7f06008a;
+        public static final int tv_orange=0x7f060087;
+        /**  twitter 
+         */
+        public static final int twitter_blue=0x7f06005a;
+        public static final int url_blue=0x7f06004d;
+        public static final int very_light_grey=0x7f06003c;
         public static final int vpi__background_holo_dark=0x7f060000;
         public static final int vpi__background_holo_light=0x7f060001;
         public static final int vpi__bright_foreground_disabled_holo_dark=0x7f060004;
@@ -464,8 +695,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int vpi__bright_foreground_holo_light=0x7f060003;
         public static final int vpi__bright_foreground_inverse_holo_dark=0x7f060006;
         public static final int vpi__bright_foreground_inverse_holo_light=0x7f060007;
-        public static final int vpi__dark_theme=0x7f060011;
-        public static final int vpi__light_theme=0x7f060012;
+        public static final int vpi__dark_theme=0x7f060093;
+        public static final int vpi__light_theme=0x7f060094;
+        /**  normal colors 
+         */
+        public static final int white=0x7f06003d;
+        public static final int yellow_keeto=0x7f06007b;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -680,52 +915,64 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     public static final class id {
         public static final int both=0x7f050008;
         public static final int bottom=0x7f050003;
-        public static final int btn_back=0x7f050027;
-        public static final int btn_specified_name_channel=0x7f050016;
+        public static final int btn_back=0x7f050033;
+        public static final int btn_cancel=0x7f050017;
+        public static final int btn_ok=0x7f050016;
+        public static final int btn_specified_name_channel=0x7f05001b;
         public static final int disabled=0x7f050005;
-        public static final int divider=0x7f05001f;
-        public static final int fl_inner=0x7f050020;
+        public static final int divider=0x7f050026;
+        public static final int edtContentDialog=0x7f050015;
+        public static final int fl_inner=0x7f05002c;
         public static final int flip=0x7f05000d;
         public static final int gridview=0x7f05000e;
-        public static final int img_account=0x7f05002d;
-        public static final int img_add=0x7f05002f;
-        public static final int img_edit=0x7f05002e;
-        public static final int img_search_home=0x7f05002a;
-        public static final int img_setting=0x7f05002b;
-        public static final int indicator=0x7f050025;
-        public static final int list_channel_subcribe=0x7f05001c;
-        public static final int ln_controlled=0x7f05002c;
-        public static final int ln_nav=0x7f050029;
-        public static final int ln_parent=0x7f05001d;
-        public static final int login_dev=0x7f050017;
-        public static final int login_web=0x7f050018;
-        public static final int lv_cate=0x7f050013;
+        public static final int img_account=0x7f050039;
+        public static final int img_add=0x7f05003b;
+        public static final int img_channel=0x7f050028;
+        public static final int img_edit=0x7f05003a;
+        public static final int img_search_home=0x7f050036;
+        public static final int img_setting=0x7f050037;
+        public static final int indicator=0x7f050031;
+        public static final int list_channel_subcribe=0x7f050021;
+        public static final int ln_controlled=0x7f050038;
+        public static final int ln_nav=0x7f050035;
+        public static final int ln_parent=0x7f050024;
+        public static final int ln_parent_channel=0x7f050027;
+        public static final int ln_text=0x7f050029;
+        public static final int login_dev=0x7f05001c;
+        public static final int login_web=0x7f05001d;
+        public static final int lv_cate=0x7f050018;
         public static final int manualOnly=0x7f050009;
         public static final int none=0x7f050000;
-        public static final int pager=0x7f050026;
+        public static final int pager=0x7f050032;
+        public static final int parent_logout_dialog=0x7f050013;
+        public static final int progress=0x7f050023;
         public static final int pullDownFromTop=0x7f05000a;
         public static final int pullFromEnd=0x7f050007;
         public static final int pullFromStart=0x7f050006;
         public static final int pullUpFromBottom=0x7f05000b;
-        public static final int pull_to_refresh_image=0x7f050021;
-        public static final int pull_to_refresh_progress=0x7f050022;
-        public static final int pull_to_refresh_sub_text=0x7f050024;
-        public static final int pull_to_refresh_text=0x7f050023;
-        public static final int rllogin=0x7f050014;
-        public static final int rllst_channel=0x7f050019;
+        public static final int pull_to_refresh_image=0x7f05002d;
+        public static final int pull_to_refresh_progress=0x7f05002e;
+        public static final int pull_to_refresh_sub_text=0x7f050030;
+        public static final int pull_to_refresh_text=0x7f05002f;
+        public static final int rllogin=0x7f050019;
+        public static final int rllst_channel=0x7f05001e;
         public static final int rotate=0x7f05000c;
         public static final int scrollview=0x7f050010;
-        public static final int title_list=0x7f050028;
+        public static final int title_list=0x7f050034;
         public static final int top=0x7f050004;
         public static final int top_detail=0x7f050012;
         public static final int top_home=0x7f050011;
         public static final int triangle=0x7f050001;
-        public static final int tv_login=0x7f050015;
-        public static final int tv_name_cate=0x7f05001e;
-        public static final int tv_new_videos_sub=0x7f05001a;
+        public static final int tvTitleDialog=0x7f050014;
+        public static final int tv_login=0x7f05001a;
+        public static final int tv_name_cate=0x7f050025;
+        public static final int tv_new_videos_sub=0x7f05001f;
+        public static final int tv_number_video=0x7f05002b;
+        public static final int tv_title_channel=0x7f05002a;
         public static final int underline=0x7f050002;
-        public static final int view=0x7f05001b;
+        public static final int view=0x7f050020;
         public static final int webview=0x7f05000f;
+        public static final int wvLogin=0x7f050022;
     }
     public static final class integer {
         public static final int default_circle_indicator_orientation=0x7f080000;
@@ -735,32 +982,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int default_underline_indicator_fade_length=0x7f080004;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int fragment_category=0x7f030001;
-        public static final int fragment_channel=0x7f030002;
-        public static final int fragment_local=0x7f030003;
-        public static final int item_cate=0x7f030004;
-        public static final int pull_to_refresh_header_horizontal=0x7f030005;
-        public static final int pull_to_refresh_header_vertical=0x7f030006;
-        public static final int theme_title_viewpager=0x7f030007;
-        public static final int top_detail_list=0x7f030008;
-        public static final int top_main=0x7f030009;
+        public static final int acitvity_search=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int dialog_channel=0x7f030002;
+        public static final int fragment_category=0x7f030003;
+        public static final int fragment_channel=0x7f030004;
+        public static final int fragment_local=0x7f030005;
+        public static final int item_cate=0x7f030006;
+        public static final int item_channel=0x7f030007;
+        public static final int pull_to_refresh_header_horizontal=0x7f030008;
+        public static final int pull_to_refresh_header_vertical=0x7f030009;
+        public static final int theme_title_viewpager=0x7f03000a;
+        public static final int top_detail_list=0x7f03000b;
+        public static final int top_main=0x7f03000c;
     }
     public static final class string {
         public static final int action_settings=0x7f0b0007;
         /**  Fragment category 
          */
-        public static final int all=0x7f0b0013;
-        public static final int animals=0x7f0b0018;
+        public static final int all=0x7f0b0018;
+        public static final int animals=0x7f0b001d;
         public static final int app_name=0x7f0b0006;
-        public static final int auto=0x7f0b001a;
-        public static final int blog=0x7f0b001c;
+        public static final int auto=0x7f0b001f;
+        public static final int blog=0x7f0b0021;
+        public static final int btn_cancel=0x7f0b0015;
+        public static final int btn_ok=0x7f0b0014;
         public static final int btn_specified_name=0x7f0b0010;
-        public static final int comedy=0x7f0b001f;
-        public static final int edu=0x7f0b0020;
-        public static final int entertainment=0x7f0b001e;
-        public static final int events=0x7f0b0019;
-        public static final int film=0x7f0b0014;
+        public static final int comedy=0x7f0b0024;
+        public static final int edu=0x7f0b0025;
+        public static final int entertainment=0x7f0b0023;
+        public static final int events=0x7f0b001e;
+        public static final int film=0x7f0b0019;
         public static final int fragment_title_account=0x7f0b000b;
         public static final int fragment_title_bookmark=0x7f0b000d;
         public static final int fragment_title_category=0x7f0b000c;
@@ -769,14 +1021,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          */
         public static final int fragment_title_local=0x7f0b0008;
         public static final int fragment_title_youtube=0x7f0b000a;
-        public static final int game=0x7f0b001b;
+        public static final int game=0x7f0b0020;
+        public static final int input_dialog=0x7f0b0013;
         public static final int login_youtube_dev=0x7f0b0011;
         public static final int login_youtube_web=0x7f0b0012;
-        public static final int muzik=0x7f0b0015;
+        public static final int muzik=0x7f0b001a;
         /**  Fragment list channel 
          */
         public static final int new_subscribe=0x7f0b000e;
-        public static final int news=0x7f0b001d;
+        public static final int news=0x7f0b0022;
         /**  Just use standard Pull Down String when pulling up. These can be set for languages which require it 
  Just use standard Pull Down String when pulling up. These can be set for languages which require it 
          */
@@ -786,10 +1039,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int pull_to_refresh_pull_label=0x7f0b0000;
         public static final int pull_to_refresh_refreshing_label=0x7f0b0002;
         public static final int pull_to_refresh_release_label=0x7f0b0001;
-        public static final int science=0x7f0b0017;
-        public static final int sports=0x7f0b0016;
-        public static final int style=0x7f0b0021;
+        public static final int science=0x7f0b001c;
+        public static final int sports=0x7f0b001b;
+        public static final int style=0x7f0b0026;
         public static final int tv_login=0x7f0b000f;
+        public static final int videos=0x7f0b0016;
+        public static final int wv_url=0x7f0b0017;
     }
     public static final class style {
         public static final int TextAppearance_TabPageIndicator=0x7f0a0003;
@@ -797,6 +1052,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int Widget=0x7f0a0001;
         public static final int Widget_IconPageIndicator=0x7f0a0004;
         public static final int Widget_TabPageIndicator=0x7f0a0002;
+        public static final int bt_style=0x7f0a0006;
+        public static final int btn_style=0x7f0a0007;
+        public static final int text_style=0x7f0a0005;
     }
     public static final class styleable {
         /** Attributes that can be used with a CirclePageIndicator.

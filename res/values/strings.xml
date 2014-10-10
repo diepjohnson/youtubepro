@@ -16,6 +16,11 @@
     <string name="btn_specified_name">Specify your channel name</string>
     <string name="login_youtube_dev">Login YouTube(device)</string>
     <string name="login_youtube_web">Login YouTube(web)</string>
+    <string name="input_dialog">Please input channel name</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="videos">videos</string>
+    <string name="wv_url">https://www.youtube.com/upload</string>
     <!-- Fragment category -->
     <string name="all">All</string>
     <string name="film">Film &amp;  Animation</string>
@@ -32,5 +37,6 @@
     <string name="comedy">Comedy</string>
     <string name="edu">Education</string>
     <string name="style">Howto &amp;  Style</string>
+    <!--  -->
 
 </resources>

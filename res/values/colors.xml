@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Global Colors -->
+    <!--
+     Backgrounds Global themes
+	# 全局的背景颜色配色
+    -->
+    <!--
+     Title background color gradient 
+	# Tab和其他的Title的背景颜色，渐变颜色和起始颜色
+    -->
+    <color name="title_background_on_color_start">#6d0000</color>
+    <color name="title_background_on_color_end">#6d0000</color>
+    <color name="title_background_off_color_start">#fe0000</color>
+    <color name="title_background_off_color_end">#fe0000</color>
+    <color name="title_background_pressed_start">#6A9CDF</color>
+    <color name="title_background_pressed_end">#84B1ED</color>
+
+    <!--
+     Body background color 
+	# layout内容的背景色
+    -->
+    <color name="body_background_normal">@color/white</color>
+    <color name="body_background_featured">#497DC4</color>
+    <!-- a kind of blue -->
+    <color name="tv_color">#6d6e70</color>
+    <color name="bg_chat_msg">#e6e7e8</color>
+
+    <!--
+     Generic background color for View and titles
+	# 一般的title使用的蓝色背景色
+    -->
+    <color name="background_color_main">#497DC4</color>
+    <color name="background_color_support">#88ff2b2b</color>
+    <color name="background_color_support3">#FFFFFFFF</color>
+    <color name="background_color_support2">#f8b500</color>
+
+    <!--
+     Label foreground color and background colors
+	# Label的前景色和背景色定义
+    -->
+    <color name="label_main_bg_color">#497DC4</color>
+    <!-- Blue Color -->
+    <color name="label_main_fg_color">@color/white</color>
+    <!-- White Color -->
+    <color name="label_support_bg_color">@color/very_light_grey</color>
+    <!-- Light Grey Color -->
+    <color name="label_support_fg_color">@color/dark_grey</color>
+    <!-- Dark grey -->
+
+
+    <!--
+     normal TextView color 
+	# 普通的TextView Color
+    -->
+    <color name="normal_text_view_color_dark">@color/dark_grey</color>
+    <color name="normal_text_view_color_light">@color/white</color>
+    <color name="short_label_title_color">@color/dark_grey</color>
+
+    <!--
+     normal text selector color used in white background 
+	# 在白色背景下的text selector的颜色
+    -->
+    <color name="text_label_normal">@color/dark_grey</color>
+    <color name="text_label_pressed">@color/yellow_keeto</color>
+    <color name="text_label_focused">@color/yellow_keeto</color>
+    <color name="text_label_disabled">@color/very_light_grey</color>
+    <color name="text_label_seondary_normal">@color/light_grey</color>
+
+    <!--
+     normal text selector reverse colors used in dark background 
+	# 在深色背景下text selector所用到的颜色
+    -->
+    <color name="text_label_normal_reverse">@color/white</color>
+    <color name="text_label_pressed_reverse">@color/dark_grey</color>
+    <color name="text_label_focused_reverse">@color/dark_grey</color>
+    <color name="text_label_disabled_reverse">@color/light_grey</color>
+    <color name="text_label_normal_secondary_reverse">@color/very_light_grey</color>
+
+    <!--
+     tab item text selector's colors 
+	# Tab Item中文字的颜色
+    -->
+    <color name="tab_bg_normal">@color/very_light_grey</color>
+    <color name="tab_bg_selected_true">@color/very_light_grey</color>
+    <color name="tab_bg_selected_false">@color/white</color>
+
+    <!--
+     grid view item text selector colors 
+	# Grid Item的文字颜色
+    -->
+    <color name="grid_item_text_normal">@color/dark_grey</color>
+    <color name="grid_item_text_pressed">@color/white</color>
+    <color name="grid_item_text_focusd">@color/white</color>
+    <color name="grid_item_text_disable">@color/light_grey</color>
+
+    <!-- Buddy Activity -->
+    <color name="separator_bg_color">#F4F4F4</color>
+
+    <!-- main colors -->
+    <color name="black">#000000</color>
+    <color name="sencondary_black">#999</color>
+    <color name="dark_grey">#FF4B4B4B</color>
+    <color name="light_grey">#FF9C9A9C</color>
+    <color name="very_light_grey">#FFEEEEEE</color>
+
+    <!-- normal colors -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="dacam">#FF6633</color>
+    <color name="pink">#FFAC3979</color>
+    <color name="purpal">#FF4A1177</color>
+    <color name="deep_blue">#FF2C2C58</color>
+    <color name="light_blue">#FF2068DF</color>
+    <color name="blue_green">#FF317194</color>
+    <color name="deep_green">#FF30595E</color>
+    <color name="dark_green">#FF1C534C</color>
+    <color name="light_green">#FF2D8F26</color>
+    <color name="light_yalow">#FFFFEA00</color>
+    <color name="light_red">#FFDC4522</color>
+    <color name="orange">#FFFF7E00</color>
+    <color name="deeper_red">#FFE62B00</color>
+    <color name="dark_red">#9C1616</color>
+    <color name="green">#0db424</color>
+    <color name="url_blue">#0d51ff</color>
+    <color name="title_orange">#f68b1f</color>
+
+    <!-- facebook -->
+    <color name="fb_title_blue">#FF3B5998</color>
+    <color name="fb_title_black">#FF424242</color>
+    <color name="fb_name_light_blue">#FF3B5998</color>
+    <color name="fb_caption_light_grey">#FF9C9A9C</color>
+    <color name="fb_comments_blue">#FF6386BD</color>
+    <color name="fb_like_bg">#fff6f5ec</color>
+
+    <!-- sns -->
+    <color name="sns_name_black">#262626</color>
+    <color name="sns_comment_grey">#4B4B4B</color>
+    <color name="sns_message_grey">#666666</color>
+    <color name="sns_floating_bar_normal">#d1d2d4</color>
+    <color name="sns_floating_bar_active">#e6e7e8</color>
+
+    <!-- twitter -->
+    <color name="twitter_blue">#FF76B0D9</color>
+    <color name="linearlayout_backgroud_oppose">#FFC0C0C0</color>
+    <color name="light_grey_plus">#DDDDDD</color>
+    <color name="sns_page_font_color">#285EA6</color>
+    <color name="blue_light">#B7FDFB</color>
+
+    <!-- CLUB -->
+    <color name="ia_label_bg_color">#E5E5E5</color>
+    <color name="ia_light_blue">#94B6EF</color>
+    <color name="ia_blue">#2D7CFF</color>
+    <color name="ia_orange">#FF6947</color>
+    <color name="ia_tranparent">#00ffffff</color>
+    <color name="ia_deep_blue">#0056E6</color>
+    <color name="ia_red">#FF3000</color>
+    <color name="ia_yallow">#FFC000</color>
+    <color name="ia_green">#69B319</color>
+    <color name="ia_deep_green">#388233</color>
+    <color name="ia_label_blue">#00A0F3</color>
+    <color name="ia_label_orange">#F59D56</color>
+    <color name="ia_bg_blue">#E7F0FF</color>
+    <color name="ia_label_grey">#C0C3C3</color>
+    <color name="ia_label_deep_grey">#858C8C</color>
+    <color name="feeds_title_bg">#AA4A86CE</color>
+    <!-- standard colors -->
+    <color name="theme_blue_main">#497DC4</color>
+    <color name="theme_blue_light1">#77A4E2</color>
+    <color name="theme_blue_light2">#94B4E2</color>
+    <color name="theme_blue_dark1">#4E6B93</color>
+    <color name="theme_blue_dark2">#18437F</color>
+    <color name="theme_grey">#E5ECF5</color>
+    <color name="text_grey">#4b4b4b</color>
+    <color name="text_grey_gridview">#6d6e70</color>
+    <color name="text_grey_line">#E3E3E3</color>
+    <color name="text_grey_bg">#F8F8F8</color>
+    <color name="suport_header_bg">#6d6e71</color>
+    <color name="diliver">#D1D2D4</color>
+    <color name="yellow_keeto">#f68b1f</color>
+    <color name="chat_bg">#edecf0</color>
+    <color name="hint_color">#bbbdc0</color>
+    <color name="comment_bg_color">#e6e7e8</color>
+    <color name="comment_btn_color">#6d6e70</color>
+    <color name="price_color">#be1c2e</color>
+    <color name="order_header_border">#bcbdc0</color>
+    <color name="background_img_color">#310501</color>
+    <color name="header_tab_color">#6D6E70</color>
+
+    <!-- buddy tab color -->
+    <color name="search_buddy_bg">#f1f1f2</color>
+    <color name="bg_crop_image">#787879</color>
+    <color name="bg_notify_layout">#E5E5E4</color>
+    <color name="tv_orange">#f58022</color>
+    <color name="bg_list_chat">#d1d3d4</color>
+    <color name="bg_color_text_hind">#d1d2d4</color>
+
+    <!-- New Menubar -->
+    <color name="tv_menubar_color_selected">#f68a1e</color>
+    <color name="tv_menubar_color">#6d6e70</color>
+    <color name="bg_color_view">#00000000</color>
+    <color name="transparent_dark">#50000000</color>
+
+    <!-- search -->
+    <color name="bg_search">#eeedef</color>
+    <color name="color_rating">#fdbb13</color>
+    <color name="color_active">#FF6666</color>
+
+    <!-- promotion detail -->
+    <color name="bg_detail_selected">#f47f22</color>
+
+    <!-- ProductActivity -->
+    <color name="tv_blue">#1B75BB</color>
+
+</resources>

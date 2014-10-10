@@ -15,7 +15,8 @@
             android:layout_centerHorizontal="true"
             android:layout_margin="5dp"
             android:lines="2"
-            android:text="@string/tv_login" />
+            android:text="@string/tv_login"
+            android:textSize="15sp" />
 
         <Button
             android:id="@+id/btn_specified_name_channel"
@@ -57,7 +58,7 @@
         <View
             android:id="@+id/view"
             android:layout_width="match_parent"
-            android:layout_height="2dp"
+            android:layout_height="1dp"
             android:layout_below="@+id/tv_new_videos_sub"
             android:background="#bbbab9" />
 
@@ -67,5 +68,18 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/view" />
     </RelativeLayout>
+
+    <WebView
+        android:id="@+id/wvLogin"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
 
 </RelativeLayout>
